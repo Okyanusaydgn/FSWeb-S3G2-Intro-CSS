@@ -1,0 +1,120 @@
+.container{
+    width: 750px;
+    margin: 0 auto;
+  }
+  nav{
+    padding: 15px 0;
+  }
+  
+  nav a{
+    border-radius:10px;
+    background-color:#5ed3eb;
+    padding: 18px 3%;
+    width: 100px;
+    margin: 0 150px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  nav a:hover{
+    color:#5ed3eb;
+    background-color: white;
+  }
+  
+  nav a:first-child{
+    background-color: #ff764e;
+    margin: 0;
+    padding: 7px 3%;
+  }
+  
+  nav a:first-child:hover{
+    color:#ff764e;
+    background-color: white;
+  }
+  
+  nav a:last-child{
+    background-color: #ffcd69;
+    margin: 0;
+  }
+  
+  nav a:last-child:hover{
+    background-color: white;
+    color:#ffcd69;
+  }
+  
+  main img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  main{
+    padding: 50px 0;
+    
+  }
+  
+  main div{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  h1 {
+    font-family: "Chelsea Market", sans-serif;
+    margin: 18px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  main p{
+    margin: 8px 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  
+  .description{
+    background-color: #ddb9a3;
+    color: #f9e7dc;
+    padding: 20px;
+  }
+  
+  .feature img {
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .feature span{
+    font-weight: bold;
+  }
+  
+  .feature{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  
+  
+  footer{
+    background-color: #F9E7DC;
+  }
+  
+  
+  footer div{
+    height: 150px;
+    width: 100%;
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
